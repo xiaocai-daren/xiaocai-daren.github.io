@@ -1,0 +1,142 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 41px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea .login a {
+    color: #b1191a;
+}
+
+.res_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.res_form ul li {
+    margin-bottom: 20px;
+}
+
+.res_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.res_form ul li .inp {
+    width: 241px;
+    height: 36px;
+    border: 1px solid #999999;
+}
+
+.error {
+    color: #df3033;
+}
+
+.success {
+    color: green;
+}
+
+.error .error_icon,
+.success .success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.success .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.res_form ul .safe {
+    padding-left: 165px;
+    margin-top: -10px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 88px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 95px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright .links a {
+    margin: 0 12px;
+}
+
+.mod_copyright .copyright {
+    line-height: 20px;
+}

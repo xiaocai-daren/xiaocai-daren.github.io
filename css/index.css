@@ -1,0 +1,329 @@
+.main {
+    width: 981px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: '\e688';
+    font-family: 'iconfont';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 25px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+    background: url(../images/icons.png) no-repeat 0 0;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.lifeservice .cutdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/cutdown.png) no-repeat;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+    padding-top: 30px;
+}
+
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+
+.recom-bd {
+    float: left;
+}
+
+.like {
+    height: 262px;
+    margin-top: 30px;
+}
+
+.like_hd {
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.like_hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+
+.like_hd .change {
+    float: right;
+    margin-right: 20px;
+}
+
+.like_hd .change::after {
+    content: '\e629';
+    font-family: 'iconfont';
+    margin-left: 8px;
+}
+
+.like_bd {
+    width: 1201px;
+    height: 233px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+
+.like_bd ul li {
+    float: left;
+    width: 200px;
+    height: 233px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-left: 30px;
+}
+
+.like_bd ul li .likeimg {
+    width: 160px;
+    height: 141px;
+    text-align: center;
+    line-height: 141px;
+}
+
+.like_bd ul li p {
+    margin: 10px 0 5px;
+    color: #666666;
+}
+
+.like_bd ul li .price {
+    font-size: 18px;
+    color: #df3033;
+}
+
+.intersect {
+    height: 435px;
+    margin-top: 30px;
+}
+
+.intersect_hd {
+    height: 28px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.intersect_bd {
+    width: 1201px;
+    height: 405px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+
+.intersect_bd section {
+    float: left;
+    height: 405px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.intersect_bd section:nth-child(1) {
+    width: 405px;
+    background: url(../upload/intersect01.png) no-repeat 122px 112px #b8bddd;
+    padding: 23px;
+    font-size: 18px;
+    color: #3b468d;
+}
+
+.intersect_bd section:nth-child(2) {
+    width: 225px;
+}
+
+.intersect_bd section:nth-child(3) {
+    width: 406px;
+}
+
+.intersect_bd section:nth-child(4) {
+    width: 163px;
+}
+
+.intersect_bd section:nth-child(2) .hd,
+.intersect_bd section:nth-child(3) .hd {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.intersect_bd section:nth-child(2) img,
+.intersect_bd section:nth-child(3) img,
+.intersect_bd section:nth-child(4) img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 楼层区制作 */
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    height: 100px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.col_328 {
+    width: 328px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* 如果a包含了带有宽度的盒子，那么最好将a转换为块级盒子 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

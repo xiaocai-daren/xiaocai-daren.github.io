@@ -1,0 +1,316 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623 !important;
+}
+
+/* 快捷导航模块制作 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    content: '\e687';
+    font-family: 'iconfont';
+    margin-left: 6px;
+}
+
+/* 头部模块制作 */
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.header .logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    /* font-size: 0; */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+    border: 2px solid #b1191a;
+    border-right: 0;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 70px;
+    left: 346px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 12px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: '\e600';
+    font-family: 'iconfont';
+    margin-right: 5px;
+    color: #b1191a;
+    font-size: 14px;
+}
+
+.shopcar::after {
+    content: '\e688';
+    font-family: 'iconfont';
+    margin-left: 10px;
+}
+
+.shopcar .count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    line-height: 14px;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* 导航模块制作 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.dropdown .dd {
+    /* display: none; */
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    background-color: #c81623;
+    line-height: 31px;
+    margin-left: 2px;
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    content: '\e688';
+    font-family: 'iconfont';
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.dropdown .dd ul li a {
+    font-style: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+/* 底部模块制作 */
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 25px;
+    margin-top: 37px;
+}
+
+.mod_servers {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_servers ul li {
+    float: left;
+    width: 240px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.mod_servers ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.mod_servers .icon1 {
+    background: url(../images/icons.png) no-repeat -253px -3px;
+}
+
+.mod_servers .icon2 {
+    background: url(../images/icons.png) no-repeat -255px -54px;
+}
+
+.mod_servers .icon3 {
+    background: url(../images/icons.png) no-repeat -257px -106px;
+}
+
+.mod_servers .icon4 {
+    background: url(../images/icons.png) no-repeat -258px -157px;
+}
+
+.mod_servers .icon5 {
+    background: url(../images/icons.png) no-repeat -258px -209px;
+}
+
+.servers_txt h4 {
+    padding-top: 3px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.servers_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 188px;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright .links a {
+    margin: 0 12px;
+}
+
+.mod_copyright .copyright {
+    line-height: 20px;
+}
